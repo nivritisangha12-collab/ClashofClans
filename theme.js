@@ -1,9 +1,9 @@
 
 function applyTheme(theme) {
   if (theme === 'light') {
-    document.body.classList.add('light-theme');
+    document.documentElement.classList.add('light-theme');
   } else {
-    document.body.classList.remove('light-theme');
+    document.documentElement.classList.remove('light-theme');
   }
 }
 const currentTheme = localStorage.getItem('theme') || 'dark';
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     toggleBtn.textContent = currentTheme === 'light' ? '🌙 Dark Mode' : '☀️ Light Mode';
     
     toggleBtn.addEventListener('click', () => {
-      const isLight = document.body.classList.contains('light-theme');
+      const isLight = document.documentElement.classList.contains('light-theme');
       const newTheme = isLight ? 'dark' : 'light';
       
       localStorage.setItem('theme', newTheme);
