@@ -174,7 +174,8 @@ h1 {
 .chart-card h3 { margin-top: 0; margin-bottom: 20px; color: #f1f5f9; letter-spacing: 1px; }
 .full-width { width: 100%; max-width: 100%; box-sizing: border-box; text-align: center; }
 .counter { font-size: 48px !important; color: var(--gold-main) !important; text-shadow: 0 0 20px var(--gold-glow); }
-body.light-theme {
+
+html.light-theme body {
   --bg-dark: #f8fafc;
   --text-main: #0f172a;
   --text-muted: #475569;
@@ -189,14 +190,14 @@ body.light-theme {
   background: radial-gradient(circle at top right, #e2e8f0, var(--bg-dark), #cbd5e1);
 }
 
-body.light-theme .player-card:hover {
+html.light-theme .player-card:hover {
   background: rgba(255, 255, 255, 0.95);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
 }
 
-body.light-theme #leagueFilter option, 
-body.light-theme #clanFilter option, 
-body.light-theme #sortToggle option {
+html.light-theme #leagueFilter option, 
+html.light-theme #clanFilter option, 
+html.light-theme #sortToggle option {
   background: #f8fafc;
   color: #0f172a;
 }
