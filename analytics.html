@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Player Analytics Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="theme.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <h1>📊 Server Analytics</h1>
+
+  <div class="nav-container">
+    <button id="backBtn" class="view-btn">🔙 Back to Players</button>
+  </div>
+
+  <div id="analytics-container">
+    <div class="stat-box full-width">
+      <h3>Total Enrolled Players</h3>
+      <p id="totalPlayersStat" class="counter">--</p>
+    </div>
+
+    <div class="charts-grid">
+      <div class="chart-card">
+        <h3>Clan Population</h3>
+        <canvas id="clanBarChart"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>League Distribution</h3>
+        <canvas id="leaguePieChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <script src="analytics.js"></script>
+</body>
+</html>
