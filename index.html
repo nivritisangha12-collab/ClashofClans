@@ -2,29 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Clash Stats Viewer</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="theme.js"></script>
 </head>
 <body>
 
-  <div class="container">
-    <h1>🏰 Clash of Clans Stats</h1>
+  <h1>🏆 Clash of Clans Players</h1>
 
-    <div class="search-box">
-      <input type="text" id="tagInput" placeholder="Enter Player Tag (#ABC123)" />
-      <button onclick="searchPlayer()">Search</button>
-    </div>
-
-    <div id="loading" class="hidden">⏳ Loading...</div>
-
-    <div id="result" class="card hidden">
-      <h2 id="name"></h2>
-      <p>🏆 Trophies: <span id="trophies"></span></p>
-      <p>⭐ Level: <span id="level"></span></p>
-      <p>🏹 Clan: <span id="clan"></span></p>
-    </div>
+  <div id="loadingSpinner" class="spinner-container" style="display: none;">
+    <div class="spinner"></div>
+    <p>Connecting to Server...</p>
   </div>
+
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search name or tag..." autocomplete="off" />
+    <select id="clanFilter">
+      <option value="">All Clans</option>
+    </select>
+    <select id="leagueFilter">
+      <option value="">All Leagues</option>
+      <option value="Gold">Gold League</option>
+      <option value="Crystal">Crystal League</option>
+      <option value="Master">Master League</option>
+      <option value="Champion">Champion League</option>
+    </select>
+    <select id="sortToggle">
+      <option value="rank">Sort by Rank</option>
+      <option value="name">Sort by Name</option>
+      <option value="clan">Sort by Clan</option>
+    </select>
+    <button id="viewToggle" class="view-btn">🏆 Leaderboard</button>
+    <button onclick="window.location.href='analytics.html'" class="view-btn">📊 Analytics</button>
+    <button id="themeToggle" class="view-btn">☀️ Light Mode</button>
+  </div>
+
+  <div id="players-container"></div>
 
   <script src="script.js"></script>
 </body>
