@@ -1,0 +1,35 @@
+{
+  "players": [
+    { "name": "WarriorKing1", "tag": "#PLY001", "clan": "Elite Warriors", "clanLeague": "Crystal League I", "rank": 1, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Barbarian_King.png" },
+    { "name": "ShadowKnight2", "tag": "#PLY002", "clan": "Dark Legends", "clanLeague": "Master League III", "rank": 2, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/P.E.K.K.A.png" },
+    { "name": "DragonSlayer3", "tag": "#PLY003", "clan": "Fire Fury", "clanLeague": "Champion League II", "rank": 3, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Dragon.png" },
+    { "name": "QueenArcher4", "tag": "#PLY004", "clan": "Royal Squad", "clanLeague": "Gold League I", "rank": 4, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Archer_Queen.png" },
+    { "name": "TitanCrusher5", "tag": "#PLY005", "clan": "Titan Force", "clanLeague": "Champion League I", "rank": 5, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Electro_Titan.png" },
+
+    { "name": "NightHunter6", "tag": "#PLY006", "clan": "Shadow Clan", "clanLeague": "Master League II", "rank": 6, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Night_Witch.png" },
+    { "name": "BlazeStorm7", "tag": "#PLY007", "clan": "Fire Fury", "clanLeague": "Champion League II", "rank": 7, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Baby_Dragon.png" },
+    { "name": "IceWizard8", "tag": "#PLY008", "clan": "Frozen Souls", "clanLeague": "Crystal League II", "rank": 8, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Wizard.png" },
+    { "name": "ThunderGod9", "tag": "#PLY009", "clan": "Storm Breakers", "clanLeague": "Master League I", "rank": 9, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Electro_Dragon.png" },
+    { "name": "DarkPhantom10", "tag": "#PLY010", "clan": "Dark Legends", "clanLeague": "Master League III", "rank": 10, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Headhunter.png" },
+
+    { "name": "InfernoKnight11", "tag": "#PLY011", "clan": "Inferno Squad", "clanLeague": "Champion League III", "rank": 11, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Inferno_Dragon.png" },
+    { "name": "GoldenArrow12", "tag": "#PLY012", "clan": "Royal Squad", "clanLeague": "Gold League I", "rank": 12, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Sneaky_Archer.png" },
+    { "name": "SteelTitan13", "tag": "#PLY013", "clan": "Titan Force", "clanLeague": "Champion League I", "rank": 13, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Golem.png" },
+    { "name": "GhostRider14", "tag": "#PLY014", "clan": "Phantom Crew", "clanLeague": "Crystal League I", "rank": 14, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Hog_Rider.png" },
+    { "name": "FlameDragon15", "tag": "#PLY015", "clan": "Fire Fury", "clanLeague": "Champion League II", "rank": 15, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Super_Dragon.png" },
+
+    { "name": "FrostBite16", "tag": "#PLY016", "clan": "Frozen Souls", "clanLeague": "Crystal League II", "rank": 16, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Yeti.png" },
+    { "name": "WarMachine17", "tag": "#PLY017", "clan": "War Lords", "clanLeague": "Master League II", "rank": 17, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Battle_Machine.png" },
+    { "name": "RapidStrike18", "tag": "#PLY018", "clan": "Speed Demons", "clanLeague": "Gold League II", "rank": 18, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Miner.png" },
+    { "name": "SilentAssassin19", "tag": "#PLY019", "clan": "Shadow Clan", "clanLeague": "Master League II", "rank": 19, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Royal_Champion.png" },
+    { "name": "MegaKnight20", "tag": "#PLY020", "clan": "Elite Warriors", "clanLeague": "Crystal League I", "rank": 20, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/P.E.K.K.A.png" },
+
+    
+
+    { "name": "PhantomSniper106", "tag": "#PLY106", "clan": "Phantom Crew", "clanLeague": "Crystal League I", "rank": 106, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Bowler.png" },
+    { "name": "BlazeHunter107", "tag": "#PLY107", "clan": "Fire Fury", "clanLeague": "Champion League II", "rank": 107, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Valkyrie.png" },
+    { "name": "IcePhantom108", "tag": "#PLY108", "clan": "Frozen Souls", "clanLeague": "Crystal League II", "rank": 108, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Ice_Golem.png" },
+    { "name": "DarkStorm109", "tag": "#PLY109", "clan": "Dark Legends", "clanLeague": "Master League III", "rank": 109, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Super_Witch.png" },
+    { "name": "RoyalKing110", "tag": "#PLY110", "clan": "Royal Squad", "clanLeague": "Gold League I", "rank": 110, "image": "https://raw.githubusercontent.com/Statscell/clash-assets/main/troops/icons/Grand_Warden.png" }
+  ]
+}
